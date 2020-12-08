@@ -10,7 +10,7 @@ Live theme editing and UI customisation, brought to you by `Painter`.
 
 #### Syntax
 
-![](https://imgur.com/8L5I0ZT)
+![](https://imgur.com/8L5I0ZT.gif)
 
 #### Syntax (Fill Mode)
 
