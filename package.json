@@ -1,9 +1,15 @@
 {
   "name": "painter",
   "main": "./lib/painter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Live colour customisation in Atom",
-  "keywords": ["customization", "color", "theme", "syntax", "colorpicker"],
+  "keywords": [
+    "customization",
+    "color",
+    "theme",
+    "syntax",
+    "colorpicker"
+  ],
   "activationHooks": [
     "core:loaded-shell-environment"
   ],
