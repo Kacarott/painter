@@ -3,11 +3,11 @@
   "main": "./lib/painter",
   "version": "0.0.0",
   "description": "Live colour customisation in Atom",
-  "keywords": [],
+  "keywords": ["customization", "color", "theme", "syntax", "colorpicker"],
   "activationHooks": [
     "core:loaded-shell-environment"
   ],
-  "repository": "https://github.com/atom/painter",
+  "repository": "https://github.com/Kacarott/painter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
