@@ -1,0 +1,6 @@
+{
+  "atom-text-editor": {
+    "alt-shift-p": "painter:paint-next",
+    "alt-shift-o": "painter:paint-next-fill"
+  }
+}

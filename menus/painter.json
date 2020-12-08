@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Paint This Element",
+        "command": "painter:paint"
+      },
+      {
+        "label": "Paint This Element (Fill)",
+        "command": "painter:paint-fill"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Painter",
+          "submenu": [
+            {
+              "label": "Paint Element...",
+              "command": "painter:paint-next"
+            },
+            {
+              "label": "Paint Element... (Fill Mode)",
+              "command": "painter:paint-next-fill"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "painter",
+  "main": "./lib/painter",
+  "version": "0.0.0",
+  "description": "Live colour customisation in Atom",
+  "keywords": [],
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "repository": "https://github.com/atom/painter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.13.0"
+  }
+}

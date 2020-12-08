@@ -1,0 +1,79 @@
+@bar-colors: #ff0000, #00ff00, #0000ff;
+@total-bars: length(@bar-colors);
+
+@widget-width: 200px;
+@widget-height: 50px;
+@widget-buffer-y: 3px;
+
+@bar-height: 40%;
+@bar-width: 92%;
+
+@handle-width: 3%;
+@handle-height: 60%;
+@handle-stroke: #808080;
+@handle-thickness: 1;
+
+@corners: 3;
+
+.painter {
+  height: @widget-height;
+  width: @widget-width;
+  position: absolute;
+  z-index: 1000;
+  --sliders: @total-bars;
+
+  .background {
+    x: 0;
+    y: 0;
+    rx: @corners;
+    height: 100%;
+    width:100%;
+  }
+
+  .colors(@list, @i: 1) when (@i < length(@list)) {
+    & + .slider {
+      transform: translateY(@widget-buffer-y + @i*@no-buffer-height/@total-bars);
+      stop + stop {
+        stop-color: extract(@bar-colors, @i + 1);
+      }
+      .colors(@list, @i + 1);
+    }
+  }
+
+  .slider {
+    height: (100% - @total-bars)/@total-bars;
+    width: @bar-width;
+    transform: translate(0px, @widget-buffer-y);
+    .colors(@bar-colors);
+    stop + stop {
+      stop-color: extract(@bar-colors, 1);
+    }
+  }
+
+  .slidebar {
+    height: @bar-height/@total-bars;
+    rx: @corners;
+    x: @left-buffer;
+    y: (100% - @bar-height)/(3*@total-bars);
+    width: @bar-width;
+  }
+  .handle {
+    height: @handle-height/@total-bars;
+    width: @handle-width;
+    stroke: @handle-stroke;
+    stroke-width: @handle-thickness;
+    rx: @corners;
+    transform: translate(@left-buffer, @widget-buffer-y/3);
+  }
+  stop {
+    stop-opacity: 1;
+    &.a {
+      stop-color: #000000;
+    }
+  }
+}
+
+// Calculation vars
+@no-buffer-height: @widget-height - 2*@widget-buffer-y;
+@left-buffer: (100% - @bar-width)/2;
+@handle-bar-offset: (@handle-height - @bar-height)/2);
