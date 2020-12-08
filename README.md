@@ -18,7 +18,7 @@ Live theme editing and UI customisation, brought to you by `Painter`.
 
 #### UI
 
-![](https://github.com/Kacarott/painter/blob/master/examples/UI-Fill.gif)
+![](https://github.com/Kacarott/painter/blob/master/examples/UI-Normal.gif)
 
 #### UI (Fill Mode)
 
