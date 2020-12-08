@@ -10,19 +10,19 @@ Live theme editing and UI customisation, brought to you by `Painter`.
 
 #### Syntax
 
-![](https://imgur.com/8L5I0ZT.gif)
+![](https://i.imgur.com/8L5I0ZT.gif)
 
 #### Syntax (Fill Mode)
 
-![](https://imgur.com/BSuu1TJ)
+![](https://i.imgur.com/BSuu1TJ.gif)
 
 #### UI
 
-![](https://imgur.com/tOPEZY5)
+![](https://i.imgur.com/tOPEZY5.gif)
 
 #### UI (Fill Mode)
 
-![](https://imgur.com/c10pvVd)
+![](https://i.imgur.com/c10pvVd.gif)
 
 ## How to use
 
