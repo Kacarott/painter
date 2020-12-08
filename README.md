@@ -10,19 +10,19 @@ Live theme editing and UI customisation, brought to you by `Painter`.
 
 #### Syntax
 
-![](https://github.com/Kacarott/painter/blob/master/examples/Syntax-Normal.gif)
+![](https://imgur.com/8L5I0ZT)
 
 #### Syntax (Fill Mode)
 
-![](ehttps://github.com/Kacarott/painter/blob/master/examples/Syntax-Fill.gif)
+![](https://imgur.com/BSuu1TJ)
 
 #### UI
 
-![](https://github.com/Kacarott/painter/blob/master/examples/UI-Normal.gif)
+![](https://imgur.com/tOPEZY5)
 
 #### UI (Fill Mode)
 
-![](https://github.com/Kacarott/painter/blob/master/examples/UI-Fill.gif)
+![](https://imgur.com/c10pvVd)
 
 ## How to use
 
