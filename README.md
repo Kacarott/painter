@@ -6,7 +6,25 @@ Live theme editing and UI customisation, brought to you by `Painter`.
 - Tweak a single colour everywhere with fill mode
 - Fine tune colour choice with modifiable colour sliders.
 
-## How it works
+## Examples
+
+#### Syntax
+
+![](examples/Syntax-Normal.gif)
+
+#### Syntax (Fill Mode)
+
+![](examples/Syntax-Fill.gif)
+
+#### UI
+
+![](examples/UI-Normal.gif)
+
+#### UI (Fill Mode)
+
+![](examples/UI-Fill.gif)
+
+## How to use
 
 Commands:
 
@@ -26,4 +44,14 @@ Painter applies live styles to your window, and saves final choices to your styl
 
 To undo an accidental save, simply remove the style from your styles.less file, and reload the window.
 
-## Examples
+## Installation
+
+`apm install painter`
+
+or directly through Atom.
+
+\
+\
+Let me know any issues/suggestions/feature requests!
+
+\- Keldan
